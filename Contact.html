@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <h1>Rajesh</h1>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contact-form">
+        <form action="https://formspree.io/f/xbjepwkd"method="POST" class="form">
+            <h2> Contact Me </h2>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required autocomplete="off">
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required autocomplete="off">
+            <input type="phone" id="phone" name="phone" placeholder="Enter Your Phone Number" required autocomplete="off">
+            <textarea id="message" rows="4" name="message" placeholder="Write Something"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
